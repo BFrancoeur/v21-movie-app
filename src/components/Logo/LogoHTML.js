@@ -9,7 +9,7 @@ class LogoHTML extends React.Component {
 
   render() {
     return (
-        <div className="logo">
+        <div className="header--div-logo">
             <img className='logo-image' src={require ('../../images/logo.png')} alt="Logo" />
         </div>
     )

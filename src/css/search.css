@@ -1,0 +1,25 @@
+@media (min-width: 992px) {
+    .header--div-search {
+        flex: 1 0 50%;
+        display: flex;
+        max-width: 50%;
+        padding: 2.3rem 3rem;
+        border: 1px solid #555;
+    }
+
+    .header--div-search #search {
+        flex: 1 0 85%;
+        font-size: 15px;
+        padding-left: 1rem;
+        border-top-left-radius: 8px;
+        border-bottom-left-radius: 8px;
+    }
+    .header--div-search i {
+        flex: 1 0 15%;
+        padding: .5rem;
+        margin-left: -1px;
+        border: 1px solid #555;
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: 8px;
+    }
+}

@@ -8,12 +8,11 @@ class NavBarHTML extends React.Component {
 
   render() {
     return (
-        <nav className="app-navigation">
+        <nav className="header--nav-navigation">
             <ul className="nav-menu">
-                <li className="menu-item"><a href="#" className="item-link">View Lists</a></li>
-                <li className="menu-item"><a href="#" className="item-link">Create List</a></li>
-                <li className="menu-item"><a href="#" className="item-link">Login</a></li>
-                <li className="menu-item"><a href="#" className="item-link">Logout</a></li>
+                <li className="menu-item"><a href="https://localhost:3000" className="item-link">View Lists</a></li>
+                <li className="menu-item"><a href="https://localhost:3000" className="item-link">Create List</a></li>
+                <li className="menu-item"><a href="https://localhost:3000" className="item-link">Login/Logout</a></li>
             </ul>
         </nav>
     )

@@ -1,15 +1,17 @@
 import React from 'react';
-// import NavBar from '../NavBar/NavBar';
-import NavBarHTML from '../NavBar/NavbarHTML';
+// import styled from 'styled-components';
 import LogoHTML from '../Logo/LogoHTML';
+import SearchHTML from '../SearchPanel/SearchHTML';
+import NavBarHTML from '../NavBar/NavbarHTML';
 import '../../css/header.css';
 
 // navbar along top of page
 
 function Header() {
   return (
-    <header className="app-header">
+    <header className="header--app">
         <LogoHTML />
+        <SearchHTML />
         <NavBarHTML />
     </header>
   );

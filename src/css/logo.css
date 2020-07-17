@@ -1,9 +1,14 @@
-.logo {
-    flex: 1 0 15%;
-    width: 15%;
-    background-color: #caf;
+@media(min-width: 992px) {
+  .header--div-logo {
+    flex: 1 0 10%;
+    max-width: 10%;
+    padding: 1.75rem;
+    border: 1px solid #555;
+  }
 }
 
 .logo-image {
   width: 100%;
+  height: auto;
 }
+
