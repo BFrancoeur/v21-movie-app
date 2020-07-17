@@ -1,0 +1,9 @@
+.logo {
+    flex: 1 0 15%;
+    width: 15%;
+    background-color: #caf;
+}
+
+.logo-image {
+  width: 100%;
+}

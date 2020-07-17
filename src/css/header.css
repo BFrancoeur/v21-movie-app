@@ -1,0 +1,18 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.app-header {
+    display: flex;
+    width: 100%;
+    height: 10rem;
+    background-color: #35a;
+    overflow: hidden;
+}
+
+.app-header > .logo > img {
+    width: 100%;
+    height: auto;
+}
