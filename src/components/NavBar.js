@@ -4,15 +4,14 @@ import styled from 'styled-components';
 const Navigation = styled.nav 
 ` 
 width: 100%;
-padding: 2rem;
+padding: 4rem;
 border: 1px solid #555;
 `;
 
 const NavMenu = styled.ul
 `
 width: 100%;
-display: flex;
-justify-content: space-evenly;
+
 list-style-type: none;
 padding: 1rem;
 border: 1px solid #555;
@@ -20,19 +19,19 @@ border: 1px solid #555;
 
 const MenuItem = styled.li
 `
-flex: 1 0 25%;
-margin-right: 3%;
+display: inline-block;
+margin-right: 3.4285%;
 font-size: .875rem;
-background-color: transparent;
+background-color: #5af;
 `;
 
 const ItemLink = styled.a
 `
-width: auto;
+width: 100%;
 height: auto;
 font-size: .875rem;
-padding: 1rem;
-background-color: #fff;
+padding: .5rem .8rem;
+background-color: #eee;
 border: 1px solid #555;
 transition: all .2s;
 

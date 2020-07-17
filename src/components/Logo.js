@@ -4,9 +4,8 @@ import '../images/logo.png';
 
 const LogoComponent = styled.div
 `
-  flex: 1 0 10%;
-  max-width: 10%;
-  padding: 2.4rem 1.75rem;
+  flex: 1 0 14%;
+  padding: .75rem;
   border: 1px solid #555; 
 `;
 
