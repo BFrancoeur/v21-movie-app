@@ -5,7 +5,6 @@ const Navigation = styled.nav
 ` 
 width: 100%;
 padding: 2rem;
-background-color: #A7CEF2;
 border: 1px solid #555;
 `;
 
@@ -13,6 +12,7 @@ const NavMenu = styled.ul
 `
 width: 100%;
 display: flex;
+justify-content: space-evenly;
 list-style-type: none;
 padding: 1rem;
 border: 1px solid #555;
@@ -20,7 +20,7 @@ border: 1px solid #555;
 
 const MenuItem = styled.li
 `
-flex: 1;
+flex: 1 0 25%;
 margin-right: 3%;
 font-size: .875rem;
 background-color: transparent;
@@ -55,8 +55,12 @@ class NavBar extends React.Component {
         <NavMenu>
           <MenuItem>
             <ItemLink>View Lists</ItemLink>
+          </MenuItem>
+          <MenuItem>
             <ItemLink>Create List</ItemLink>
-            <ItemLink>Login</ItemLink>
+          </MenuItem>
+          <MenuItem>
+            <ItemLink>Login/Logout</ItemLink>
           </MenuItem>
         </NavMenu>
       </Navigation>
