@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+.app-navigation {
+    flex: 4 0 50%;
+    width: 50%;
+    padding: 2rem;
+    margin: 0 auto;
+    background-color: #A7CEF2;
+    border: 1px solid #555;
+}
+
+.nav-menu {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0;
+
+}
+
+.menu-item {
+    padding: 1rem 0;
+    border: 1px solid #777;
+    border-radius: 8px;
+}
+
+.menu-item > a.item-link {
+    width: auto;
+    height: auto;
+    font-size: 15px;
+    font-weight: 700;
+    color: #333;
+    text-decoration: none;
+    padding: 1rem;
+    background-color: #fff;
+    border: 1px solid #777;
+    border-radius: 8px;
+    transition: all .2s;
+}
+
+.menu-item > a.item-link:hover {
+    background-color: #ccc;
+}
