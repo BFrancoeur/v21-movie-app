@@ -8,7 +8,7 @@ const SearchComponent = styled.div
 `
   flex: 1 0 40%;
   display: flex;
-  padding: 2.3rem 3rem;
+  padding: 1.4rem 3rem;
   border: 1px solid #555;
 `;
 

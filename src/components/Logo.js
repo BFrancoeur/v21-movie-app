@@ -5,7 +5,7 @@ import '../images/logo.png';
 const LogoComponent = styled.div
 `
   flex: 1 0 14%;
-  padding: .75rem;
+  padding: .2rem;
   border: 1px solid #555; 
 `;
 

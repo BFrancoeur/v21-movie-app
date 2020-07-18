@@ -19,10 +19,10 @@ width: 100%;
 display: flex;
 justify-content: space-evenly;
 flex-direction: column;
-padding: 3rem 0;
+padding: 0;
 margin: 2.5rem 0;
 border: 1px solid #555;
-background-color: rgba(150, 250, 150, .3);
+background-color: #EDBF05;
 `;
 
 const SectionHeader = styled.div
@@ -48,8 +48,8 @@ flex: 1 0 100%;
 width: 100%;
 display: flex;
 justify-content: space-between;
+padding: 0 0 3rem;
 flex-direction: row;
-padding: 2rem;
 border: 1 px solid #555;
 `;
 
@@ -57,7 +57,8 @@ const MovieCard = styled.div
 `
 flex: 1 0 19%;
 max-width: 19%;
-padding: 1rem;
+padding: 0;
+background-color: #eee;
 border: 1px solid #555;
 content: "";
 clear: both;
@@ -68,6 +69,13 @@ const MovieHero = styled.div
 position: relative;
 width: 100%;
 `;
+
+const MovieInfo = styled.div
+`
+padding: 1rem;
+box-sizing: border-box;
+`;
+
 
 const MovieImage = styled.img
 `
@@ -92,108 +100,61 @@ class Home extends React.Component {
                         <MovieHero>
                             <MovieImage src={require ('../images/movie.jpg')} alt="movie image" />
                         </MovieHero>
-                        <h3 className="movie-title">Movie Title</h3>
-                        <p className="movie-review">Review Stars</p>
-                        <p className="movie-genre">Movie Genre</p>
-                        <p className="Year">Movie Year</p>
-                        <p className="lead-actor">Lead Actor</p>
+                        <MovieInfo>
+                            <h3 className="movie-title">Movie Title</h3>
+                            <p className="movie-review">Review Stars</p>
+                            <p className="movie-genre">Movie Genre</p>
+                            <p className="Year">Movie Year</p>
+                            <p className="lead-actor">Lead Actor</p>
+                        </MovieInfo>
                     </MovieCard>
                     <MovieCard>
                         <MovieHero>
                             <MovieImage src={require ('../images/movie.jpg')} alt="movie image" />
                         </MovieHero>
-                        <h3 className="movie-title">Movie Title</h3>
-                        <p className="movie-review">Review Stars</p>
-                        <p className="movie-genre">Movie Genre</p>
-                        <p className="Year">Movie Year</p>
-                        <p className="lead-actor">Lead Actor</p>
+                        <MovieInfo>
+                            <h3 className="movie-title">Movie Title</h3>
+                            <p className="movie-review">Review Stars</p>
+                            <p className="movie-genre">Movie Genre</p>
+                            <p className="Year">Movie Year</p>
+                            <p className="lead-actor">Lead Actor</p>
+                        </MovieInfo>
                     </MovieCard>
                     <MovieCard>
                         <MovieHero>
                             <MovieImage src={require ('../images/movie.jpg')} alt="movie image" />
                         </MovieHero>
-                        <h3 className="movie-title">Movie Title</h3>
-                        <p className="movie-review">Review Stars</p>
-                        <p className="movie-genre">Movie Genre</p>
-                        <p className="Year">Movie Year</p>
-                        <p className="lead-actor">Lead Actor</p>
+                        <MovieInfo>
+                            <h3 className="movie-title">Movie Title</h3>
+                            <p className="movie-review">Review Stars</p>
+                            <p className="movie-genre">Movie Genre</p>
+                            <p className="Year">Movie Year</p>
+                            <p className="lead-actor">Lead Actor</p>
+                        </MovieInfo>
                     </MovieCard>
                     <MovieCard>
                         <MovieHero>
                             <MovieImage src={require ('../images/movie.jpg')} alt="movie image" />
                         </MovieHero>
-                        <h3 className="movie-title">Movie Title</h3>
-                        <p className="movie-review">Review Stars</p>
-                        <p className="movie-genre">Movie Genre</p>
-                        <p className="Year">Movie Year</p>
-                        <p className="lead-actor">Lead Actor</p>
+                        <MovieInfo>
+                            <h3 className="movie-title">Movie Title</h3>
+                            <p className="movie-review">Review Stars</p>
+                            <p className="movie-genre">Movie Genre</p>
+                            <p className="Year">Movie Year</p>
+                            <p className="lead-actor">Lead Actor</p>
+                        </MovieInfo>
                     </MovieCard>
                     <MovieCard>
                         <MovieHero>
                             <MovieImage src={require ('../images/movie.jpg')} alt="movie image" />
                         </MovieHero>
-                        <h3 className="movie-title">Movie Title</h3>
-                        <p className="movie-review">Review Stars</p>
-                        <p className="movie-genre">Movie Genre</p>
-                        <p className="Year">Movie Year</p>
-                        <p className="lead-actor">Lead Actor</p>
-                    </MovieCard>
-                </GalleryRow>
-            </GallerySection>
-            <GallerySection>
-                <SectionHeader>
-                    <SectionTitle>Movie Genre</SectionTitle>
-                </SectionHeader>
-                <GalleryRow>
-                    <MovieCard>
-                        <MovieHero>
-                            <MovieImage src={require ('../images/movie.jpg')} alt="movie image" />
-                        </MovieHero>
-                        <h2 className="movie-title">Movie Title</h2>
-                        <p className="movie-review">Review Stars</p>
-                        <p className="movie-genre">Movie Genre</p>
-                        <p className="Year">Movie Year</p>
-                        <p className="lead-actor">Lead Actor</p>
-                    </MovieCard>
-                    <MovieCard>
-                        <MovieHero>
-                            <MovieImage src={require ('../images/movie.jpg')} alt="movie image" />
-                        </MovieHero>
-                        <h2 className="movie-title">Movie Title</h2>
-                        <p className="movie-review">Review Stars</p>
-                        <p className="movie-genre">Movie Genre</p>
-                        <p className="Year">Movie Year</p>
-                        <p className="lead-actor">Lead Actor</p>
-                    </MovieCard>
-                    <MovieCard>
-                        <MovieHero>
-                            <MovieImage src={require ('../images/movie.jpg')} alt="movie image" />
-                        </MovieHero>
-                        <h2 className="movie-title">Movie Title</h2>
-                        <p className="movie-review">Review Stars</p>
-                        <p className="movie-genre">Movie Genre</p>
-                        <p className="Year">Movie Year</p>
-                        <p className="lead-actor">Lead Actor</p>
-                    </MovieCard>
-                    <MovieCard>
-                        <MovieHero>
-                            <MovieImage src={require ('../images/movie.jpg')} alt="movie image" />
-                        </MovieHero>
-                        <h2 className="movie-title">Movie Title</h2>
-                        <p className="movie-review">Review Stars</p>
-                        <p className="movie-genre">Movie Genre</p>
-                        <p className="Year">Movie Year</p>
-                        <p className="lead-actor">Lead Actor</p>
-                    </MovieCard>
-                    <MovieCard>
-                        <MovieHero>
-                            <MovieImage src={require ('../images/movie.jpg')} alt="movie image" />
-                        </MovieHero>
-                        <h2 className="movie-title">Movie Title</h2>
-                        <p className="movie-review">Review Stars</p>
-                        <p className="movie-genre">Movie Genre</p>
-                        <p className="Year">Movie Year</p>
-                        <p className="lead-actor">Lead Actor</p>
+                        <MovieInfo>
+                            <h3 className="movie-title">Movie Title</h3>
+                            <p className="movie-review">Review Stars</p>
+                            <p className="movie-genre">Movie Genre</p>
+                            <p className="Year">Movie Year</p>
+                            <p className="lead-actor">Lead Actor</p>
+                        </MovieInfo>
                     </MovieCard>
                 </GalleryRow>
             </GallerySection>
@@ -206,51 +167,128 @@ class Home extends React.Component {
                         <MovieHero>
                             <MovieImage src={require ('../images/movie.jpg')} alt="movie image" />
                         </MovieHero>
-                        <h2 className="movie-title">Movie Title</h2>
-                        <p className="movie-review">Review Stars</p>
-                        <p className="movie-genre">Movie Genre</p>
-                        <p className="Year">Movie Year</p>
-                        <p className="lead-actor">Lead Actor</p>
+                        <MovieInfo>
+                            <h3 className="movie-title">Movie Title</h3>
+                            <p className="movie-review">Review Stars</p>
+                            <p className="movie-genre">Movie Genre</p>
+                            <p className="Year">Movie Year</p>
+                            <p className="lead-actor">Lead Actor</p>
+                        </MovieInfo>
                     </MovieCard>
                     <MovieCard>
                         <MovieHero>
                             <MovieImage src={require ('../images/movie.jpg')} alt="movie image" />
                         </MovieHero>
-                        <h2 className="movie-title">Movie Title</h2>
-                        <p className="movie-review">Review Stars</p>
-                        <p className="movie-genre">Movie Genre</p>
-                        <p className="Year">Movie Year</p>
-                        <p className="lead-actor">Lead Actor</p>
+                        <MovieInfo>
+                            <h3 className="movie-title">Movie Title</h3>
+                            <p className="movie-review">Review Stars</p>
+                            <p className="movie-genre">Movie Genre</p>
+                            <p className="Year">Movie Year</p>
+                            <p className="lead-actor">Lead Actor</p>
+                        </MovieInfo>
                     </MovieCard>
                     <MovieCard>
                         <MovieHero>
                             <MovieImage src={require ('../images/movie.jpg')} alt="movie image" />
                         </MovieHero>
-                        <h2 className="movie-title">Movie Title</h2>
-                        <p className="movie-review">Review Stars</p>
-                        <p className="movie-genre">Movie Genre</p>
-                        <p className="Year">Movie Year</p>
-                        <p className="lead-actor">Lead Actor</p>
+                        <MovieInfo>
+                            <h3 className="movie-title">Movie Title</h3>
+                            <p className="movie-review">Review Stars</p>
+                            <p className="movie-genre">Movie Genre</p>
+                            <p className="Year">Movie Year</p>
+                            <p className="lead-actor">Lead Actor</p>
+                        </MovieInfo>
                     </MovieCard>
                     <MovieCard>
                         <MovieHero>
                             <MovieImage src={require ('../images/movie.jpg')} alt="movie image" />
                         </MovieHero>
-                        <h2 className="movie-title">Movie Title</h2>
-                        <p className="movie-review">Review Stars</p>
-                        <p className="movie-genre">Movie Genre</p>
-                        <p className="Year">Movie Year</p>
-                        <p className="lead-actor">Lead Actor</p>
+                        <MovieInfo>
+                            <h3 className="movie-title">Movie Title</h3>
+                            <p className="movie-review">Review Stars</p>
+                            <p className="movie-genre">Movie Genre</p>
+                            <p className="Year">Movie Year</p>
+                            <p className="lead-actor">Lead Actor</p>
+                        </MovieInfo>
                     </MovieCard>
                     <MovieCard>
                         <MovieHero>
                             <MovieImage src={require ('../images/movie.jpg')} alt="movie image" />
                         </MovieHero>
-                        <h2 className="movie-title">Movie Title</h2>
-                        <p className="movie-review">Review Stars</p>
-                        <p className="movie-genre">Movie Genre</p>
-                        <p className="Year">Movie Year</p>
-                        <p className="lead-actor">Lead Actor</p>
+                        <MovieInfo>
+                            <h3 className="movie-title">Movie Title</h3>
+                            <p className="movie-review">Review Stars</p>
+                            <p className="movie-genre">Movie Genre</p>
+                            <p className="Year">Movie Year</p>
+                            <p className="lead-actor">Lead Actor</p>
+                        </MovieInfo>
+                    </MovieCard>
+                </GalleryRow>
+            </GallerySection>
+            <GallerySection>
+                <SectionHeader>
+                    <SectionTitle>Movie Genre</SectionTitle>
+                </SectionHeader>
+                <GalleryRow>
+                    <MovieCard>
+                        <MovieHero>
+                            <MovieImage src={require ('../images/movie.jpg')} alt="movie image" />
+                        </MovieHero>
+                        <MovieInfo>
+                            <h3 className="movie-title">Movie Title</h3>
+                            <p className="movie-review">Review Stars</p>
+                            <p className="movie-genre">Movie Genre</p>
+                            <p className="Year">Movie Year</p>
+                            <p className="lead-actor">Lead Actor</p>
+                        </MovieInfo>
+                    </MovieCard>
+                    <MovieCard>
+                        <MovieHero>
+                            <MovieImage src={require ('../images/movie.jpg')} alt="movie image" />
+                        </MovieHero>
+                        <MovieInfo>
+                            <h3 className="movie-title">Movie Title</h3>
+                            <p className="movie-review">Review Stars</p>
+                            <p className="movie-genre">Movie Genre</p>
+                            <p className="Year">Movie Year</p>
+                            <p className="lead-actor">Lead Actor</p>
+                        </MovieInfo>
+                    </MovieCard>
+                    <MovieCard>
+                        <MovieHero>
+                            <MovieImage src={require ('../images/movie.jpg')} alt="movie image" />
+                        </MovieHero>
+                        <MovieInfo>
+                            <h3 className="movie-title">Movie Title</h3>
+                            <p className="movie-review">Review Stars</p>
+                            <p className="movie-genre">Movie Genre</p>
+                            <p className="Year">Movie Year</p>
+                            <p className="lead-actor">Lead Actor</p>
+                        </MovieInfo>
+                    </MovieCard>
+                    <MovieCard>
+                        <MovieHero>
+                            <MovieImage src={require ('../images/movie.jpg')} alt="movie image" />
+                        </MovieHero>
+                        <MovieInfo>
+                            <h3 className="movie-title">Movie Title</h3>
+                            <p className="movie-review">Review Stars</p>
+                            <p className="movie-genre">Movie Genre</p>
+                            <p className="Year">Movie Year</p>
+                            <p className="lead-actor">Lead Actor</p>
+                        </MovieInfo>
+                    </MovieCard>
+                    <MovieCard>
+                        <MovieHero>
+                            <MovieImage src={require ('../images/movie.jpg')} alt="movie image" />
+                        </MovieHero>
+                        <MovieInfo>
+                            <h3 className="movie-title">Movie Title</h3>
+                            <p className="movie-review">Review Stars</p>
+                            <p className="movie-genre">Movie Genre</p>
+                            <p className="Year">Movie Year</p>
+                            <p className="lead-actor">Lead Actor</p>
+                        </MovieInfo>
                     </MovieCard>
                 </GalleryRow>
             </GallerySection>

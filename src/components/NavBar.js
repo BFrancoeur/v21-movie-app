@@ -4,25 +4,26 @@ import styled from 'styled-components';
 const Navigation = styled.nav 
 ` 
 width: 100%;
-padding: 4rem;
+padding: 2.2rem 4rem;
 border: 1px solid #555;
 `;
 
 const NavMenu = styled.ul
 `
 width: 100%;
-
+display: flex;
+justify-content: space-between;
 list-style-type: none;
-padding: 1rem;
-border: 1px solid #555;
+padding: 0;
 `;
 
 const MenuItem = styled.li
 `
 display: inline-block;
-margin-right: 3.4285%;
+text-align: center;
 font-size: .875rem;
 background-color: #5af;
+box-sizing: border-box;
 `;
 
 const ItemLink = styled.a
