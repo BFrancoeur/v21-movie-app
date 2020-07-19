@@ -6,7 +6,7 @@ const LogoComponent = styled.div
 `
   flex: 1 0 14%;
   padding: .2rem;
-  border: 1px solid #555; 
+  border: var(--border-default); 
 `;
 
 const LogoImage = styled.img

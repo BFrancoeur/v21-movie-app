@@ -13,7 +13,7 @@ display: flex;
 justify-content: flex-start;
 align-items: center;
 width: 100%;
-border: 1px solid #555;
+border: var(--border-default);
 overflow: hidden;
 background-color: #efefef;
 `;

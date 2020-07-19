@@ -9,7 +9,7 @@ const SearchComponent = styled.div
   flex: 1 0 40%;
   display: flex;
   padding: 1.4rem 3rem;
-  border: 1px solid #555;
+  border: var(--border-default); 
 `;
 
 const SearchIcon = styled.i

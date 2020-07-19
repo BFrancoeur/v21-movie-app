@@ -5,7 +5,7 @@ const Navigation = styled.nav
 ` 
 width: 100%;
 padding: 2.2rem 4rem;
-border: 1px solid #555;
+border: var(--border-default); 
 `;
 
 const NavMenu = styled.ul
