@@ -21,7 +21,7 @@ justify-content: space-evenly;
 flex-direction: column;
 padding: 0;
 margin: 2.5rem 0;
-border: 1px solid #555;
+border: var(--border-default);
 background-color: #EDBF05;
 `;
 
@@ -93,7 +93,7 @@ class Home extends React.Component {
             <Header />
             <GallerySection>
                 <SectionHeader>
-                    <SectionTitle>Movie Genre</SectionTitle>
+                    <SectionTitle>New Movies</SectionTitle>
                 </SectionHeader>
                 <GalleryRow>
                     <MovieCard>
@@ -160,7 +160,7 @@ class Home extends React.Component {
             </GallerySection>
             <GallerySection>
                 <SectionHeader>
-                    <SectionTitle>Movie Genre</SectionTitle>
+                    <SectionTitle>Most Popular</SectionTitle>
                 </SectionHeader>
                 <GalleryRow>
                     <MovieCard>
@@ -227,7 +227,7 @@ class Home extends React.Component {
             </GallerySection>
             <GallerySection>
                 <SectionHeader>
-                    <SectionTitle>Movie Genre</SectionTitle>
+                    <SectionTitle>Highest Reviews</SectionTitle>
                 </SectionHeader>
                 <GalleryRow>
                     <MovieCard>
